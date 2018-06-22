@@ -53,7 +53,7 @@
 /// 三个按钮
 - (IBAction)showAlert:(id)sender {
     
-    PTLAlertView *alertView = [[PTLAlertView alloc]initWithTitle:@"我是标题" message:@"你好你好吗哈哈你好吗哈哈你好吗哈哈你好吗哈哈你好吗哈哈你好吗哈哈你好吗哈哈你好吗哈哈吗哈哈你好你好吗哈哈你好吗哈哈你好吗哈哈你好吗哈哈你好吗哈哈你好吗哈哈你好吗哈哈你好吗哈哈吗哈哈你好你好吗哈哈你好你好吗哈哈你好吗哈哈你好吗哈哈你好吗哈哈你好吗哈哈你好吗哈哈你好吗哈哈你好吗哈哈吗哈哈" cancelButtonTitle:@"取消" otherButtonTitles:@"确定",@"等一会", nil];
+    PTLAlertView *alertView = [[PTLAlertView alloc]initWithTitle:@"我是标题" message:@"你好你好吗哈哈你好吗哈哈你好吗哈哈你好吗哈哈你好吗哈哈你好吗哈哈你好吗哈哈你好吗哈哈吗哈哈你好你好吗哈哈你好吗哈哈你好吗哈哈你好吗哈哈你好吗哈哈你好吗哈哈你好吗吗哈哈你好吗哈哈你好吗哈哈你好吗哈哈你好吗哈哈你好吗哈哈你好吗哈哈你好吗哈哈吗哈哈" cancelButtonTitle:@"取消" otherButtonTitles:@"确定",@"等一会", nil];
     
     [alertView setSelctBtnBlock:^(NSInteger index, NSString * _Nullable btnCurrentTitle) {
         NSLog(@"hha- %zd ---- %@", index, btnCurrentTitle);
@@ -68,7 +68,7 @@
     //    alertView.cancelBtnTextFont = [UIFont systemFontOfSize:20];
     //    alertView.otherBtnTextColor = [UIColor yellowColor];
     //    alertView.otherBtnTextFont = [UIFont systemFontOfSize:20];
-    
+//    [[PTLAlertView sharedInstance] show];
     [alertView show];
 }
 

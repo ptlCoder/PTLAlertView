@@ -8,9 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-typedef void(^SelctBtnBlock)(NSInteger, NSString*_Nullable);
+typedef void(^SelctBtnBlock)(NSInteger, NSString* _Nullable);
 
 @interface PTLAlertView : UIView
+
 NS_ASSUME_NONNULL_BEGIN
 /** title背景颜色 */
 @property (nonatomic, strong) UIColor *titleBackgroundColor;
@@ -35,6 +36,7 @@ NS_ASSUME_NONNULL_BEGIN
 NS_ASSUME_NONNULL_END
 
 @property (nonatomic, copy) SelctBtnBlock _Nullable selctBtnBlock;
+
 - (instancetype _Nullable )initWithTitle:(nullable NSString *)title message:(nullable NSString *)message cancelButtonTitle:(nullable NSString *)cancelButtonTitle otherButtonTitles:(nullable NSString *)otherButtonTitles, ... NS_REQUIRES_NIL_TERMINATION;
 - (void)show;
 @end
