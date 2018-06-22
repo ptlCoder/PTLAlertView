@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 A short description of PTLAlertView.方便项目中使用
                        DESC
 
-  s.homepage         = 'https://github.com/pengtanglong_local@163.com/PTLAlertView'
+  s.homepage         = 'https://github.com/ptlCoder/PTLAlertView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'pengtanglong_local@163.com' => 'SoliloquyPeng@kmhealthcloud.com' }
