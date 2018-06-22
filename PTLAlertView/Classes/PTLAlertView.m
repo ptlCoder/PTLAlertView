@@ -79,7 +79,7 @@
     return self;
 }
 
-
+#pragma mark - setupUI
 - (void)setupUI {
     
     self.backgroundColor = [UIColor yellowColor];
@@ -111,6 +111,7 @@
     }
 }
 
+#pragma mark - 布局
 -(void)layoutSubviews {
     [super layoutSubviews];
     
