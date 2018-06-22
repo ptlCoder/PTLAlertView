@@ -59,13 +59,13 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		76565306DC1C4E26D22E9443 /* Pods_PTLAlertView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PTLAlertView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		99B8D52C822B13FBE58B8F6A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		99B8D52C822B13FBE58B8F6A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		9D5FF5FC4E9755280ACAAEF5 /* Pods-PTLAlertView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PTLAlertView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PTLAlertView_Example/Pods-PTLAlertView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A89168332F9D8A8DF0D47450 /* Pods-PTLAlertView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PTLAlertView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PTLAlertView_Tests/Pods-PTLAlertView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		BC3746A8235358A892038A73 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		BC3746A8235358A892038A73 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C4AF243730FBD937F1FD7374 /* Pods_PTLAlertView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PTLAlertView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD00A0F66B6DDD4A9E26926C /* Pods-PTLAlertView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PTLAlertView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-PTLAlertView_Example/Pods-PTLAlertView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E777884C6E10FD3F7EF033EB /* PTLAlertView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = PTLAlertView.podspec; path = ../PTLAlertView.podspec; sourceTree = "<group>"; };
+		E777884C6E10FD3F7EF033EB /* PTLAlertView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PTLAlertView.podspec; path = ../PTLAlertView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		EA578316D513431D235ADA9B /* Pods-PTLAlertView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PTLAlertView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PTLAlertView_Tests/Pods-PTLAlertView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -507,6 +507,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PTLAlertView/PTLAlertView-Prefix.pch";
 				INFOPLIST_FILE = "PTLAlertView/PTLAlertView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -522,6 +523,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PTLAlertView/PTLAlertView-Prefix.pch";
 				INFOPLIST_FILE = "PTLAlertView/PTLAlertView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

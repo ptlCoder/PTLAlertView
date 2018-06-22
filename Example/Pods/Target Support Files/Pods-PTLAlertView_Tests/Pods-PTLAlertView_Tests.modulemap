@@ -1,0 +1,6 @@
+framework module Pods_PTLAlertView_Tests {
+  umbrella header "Pods-PTLAlertView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

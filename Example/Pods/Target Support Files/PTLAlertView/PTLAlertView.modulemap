@@ -1,0 +1,6 @@
+framework module PTLAlertView {
+  umbrella header "PTLAlertView-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -18,17 +18,17 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+A short description of PTLAlertView.方便项目中使用
                        DESC
 
   s.homepage         = 'https://github.com/pengtanglong_local@163.com/PTLAlertView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'pengtanglong_local@163.com' => 'SoliloquyPeng@kmhealthcloud.com' }
-  s.source           = { :git => 'https://github.com/pengtanglong_local@163.com/PTLAlertView.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/ptlCoder/PTLAlertView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'PTLAlertView/Classes/**/*'
   

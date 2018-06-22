@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - PTLAlertView (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - PTLAlertView (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  PTLAlertView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  PTLAlertView: 1df01cc92c8f802c90027c8aa95173cebff41018
+
+PODFILE CHECKSUM: 6301fb1599b5247fe0e34cee8fa1d9aa00f17bb5
+
+COCOAPODS: 1.5.3
