@@ -22,7 +22,7 @@ pod 'PTLAlertView'
 
 ## Author
 
-pengtanglong_local@163.com, SoliloquyPeng@kmhealthcloud.com
+pengtanglong_local@163.com
 
 ## License
 
