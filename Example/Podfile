@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PTLAlertView_Example' do
+  pod 'PTLAlertView', :path => '../'
+
+  target 'PTLAlertView_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
